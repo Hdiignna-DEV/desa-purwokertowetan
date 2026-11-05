@@ -1,0 +1,13 @@
+{
+  "name": "Pengantar Akta Kelahiran dan Kematian",
+  "description": "Pengantar pengurusan dokumen peristiwa penting.",
+  "requirements": [
+    "Dokumen pendukung peristiwa",
+    "Fotokopi KK"
+  ],
+  "estimate": "3–4 hari kerja",
+  "icon": "file-text",
+  "online": true,
+  "order": 7,
+  "visible": true
+}

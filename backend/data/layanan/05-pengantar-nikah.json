@@ -1,0 +1,14 @@
+{
+  "name": "Surat Pengantar Nikah",
+  "description": "Pengantar pendaftaran pernikahan ke Kantor Urusan Agama.",
+  "requirements": [
+    "Fotokopi KTP dan KK",
+    "Pas foto",
+    "Surat pengantar RT/RW"
+  ],
+  "estimate": "3–4 hari kerja",
+  "icon": "heart",
+  "online": true,
+  "order": 5,
+  "visible": true
+}

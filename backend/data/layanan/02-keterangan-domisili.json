@@ -1,0 +1,14 @@
+{
+  "name": "Surat Keterangan Domisili",
+  "description": "Keterangan tempat tinggal warga atau domisili usaha.",
+  "requirements": [
+    "Surat pengantar RT/RW",
+    "Fotokopi KTP",
+    "Fotokopi Kartu Keluarga"
+  ],
+  "estimate": "3–4 hari kerja",
+  "icon": "home",
+  "online": true,
+  "order": 2,
+  "visible": true
+}

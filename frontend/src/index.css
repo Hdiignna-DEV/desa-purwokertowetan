@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #F8FAFC;
+    color: #0F172A;
+}
+
+.font-mono { font-family: "JetBrains Mono", monospace; }
+
+@layer base {
+    :root {
+        --background: 210 40% 98%;
+        --foreground: 222 47% 11%;
+        --card: 0 0% 100%;
+        --card-foreground: 222 47% 11%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 222 47% 11%;
+        --primary: 200 98% 39%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 204 94% 94%;
+        --secondary-foreground: 201 90% 27%;
+        --muted: 210 40% 96%;
+        --muted-foreground: 215 19% 35%;
+        --accent: 204 94% 94%;
+        --accent-foreground: 201 90% 27%;
+        --destructive: 0 72% 51%;
+        --destructive-foreground: 0 0% 100%;
+        --border: 214 32% 91%;
+        --input: 214 32% 85%;
+        --ring: 200 98% 39%;
+        --radius: 0.9rem;
+    }
+}
+
+@layer base {
+    * { @apply border-border; }
+    body { @apply bg-background text-foreground; }
+}
+
+.eyebrow { @apply text-xs uppercase tracking-[0.2em] font-bold text-sky-700; }
+.container-x { @apply px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto; }
+.reveal { animation: reveal .6s ease-out both; }
+@keyframes reveal { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+.batik-bg {
+    background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,.12) 1px, transparent 0);
+    background-size: 18px 18px;
+}
+
+@media print {
+    body * { visibility: hidden; }
+    .print-area, .print-area * { visibility: visible; }
+    .print-area { position: fixed; left: 0; top: 0; width: 100%; border: none !important; }
+    .no-print { display: none !important; }
+}
+
+[data-debug-wrapper="true"] { display: contents !important; }

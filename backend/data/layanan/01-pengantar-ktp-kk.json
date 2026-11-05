@@ -1,0 +1,14 @@
+{
+  "name": "Pengantar KTP dan Kartu Keluarga",
+  "description": "Perekaman, penggantian, atau pembaruan data kependudukan.",
+  "requirements": [
+    "Surat pengantar RT/RW",
+    "Fotokopi KTP",
+    "Fotokopi Kartu Keluarga"
+  ],
+  "estimate": "3–4 hari kerja",
+  "icon": "id-card",
+  "online": true,
+  "order": 1,
+  "visible": true
+}

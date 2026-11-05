@@ -1,0 +1,14 @@
+{
+  "name": "Surat Keterangan Pindah / Datang",
+  "description": "Perpindahan penduduk masuk atau keluar kelurahan.",
+  "requirements": [
+    "Kartu Keluarga",
+    "Fotokopi KTP",
+    "Surat pengantar RT/RW"
+  ],
+  "estimate": "3–4 hari kerja",
+  "icon": "truck",
+  "online": true,
+  "order": 6,
+  "visible": true
+}

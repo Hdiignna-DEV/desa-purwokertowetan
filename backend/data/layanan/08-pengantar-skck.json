@@ -1,0 +1,13 @@
+{
+  "name": "Pengantar SKCK",
+  "description": "Pengantar pembuatan SKCK ke kepolisian.",
+  "requirements": [
+    "Fotokopi KTP dan KK",
+    "Pas foto"
+  ],
+  "estimate": "3–4 hari kerja",
+  "icon": "shield",
+  "online": true,
+  "order": 8,
+  "visible": true
+}

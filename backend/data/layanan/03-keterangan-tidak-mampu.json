@@ -1,0 +1,14 @@
+{
+  "name": "Surat Keterangan Tidak Mampu",
+  "description": "Untuk keperluan beasiswa, KIP, atau keringanan biaya.",
+  "requirements": [
+    "Surat pengantar RT/RW",
+    "Fotokopi KTP",
+    "Fotokopi Kartu Keluarga"
+  ],
+  "estimate": "3–4 hari kerja",
+  "icon": "heart-handshake",
+  "online": true,
+  "order": 3,
+  "visible": true
+}

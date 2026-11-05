@@ -1,0 +1,14 @@
+{
+  "name": "Surat Keterangan Usaha",
+  "description": "Untuk izin usaha, permodalan, atau sertifikasi UMKM.",
+  "requirements": [
+    "Surat pengantar RT/RW",
+    "Fotokopi KTP dan KK",
+    "Foto lokasi usaha"
+  ],
+  "estimate": "3–4 hari kerja",
+  "icon": "store",
+  "online": true,
+  "order": 4,
+  "visible": true
+}
