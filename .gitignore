@@ -1,0 +1,8 @@
+node_modules/
+frontend/build/
+.env
+*.env.local
+__pycache__/
+.venv/
+.vercel
+.pytest_cache/
